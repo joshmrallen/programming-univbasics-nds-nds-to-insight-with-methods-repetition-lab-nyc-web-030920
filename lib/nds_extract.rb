@@ -48,7 +48,14 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
+  grand_gross = 0
+  index = 0
   
+  while index < list_of_directors.count do
+    
+    grand_gross += fetch.source(list_of_directors[index])
+    
+  end
   
 end
 
