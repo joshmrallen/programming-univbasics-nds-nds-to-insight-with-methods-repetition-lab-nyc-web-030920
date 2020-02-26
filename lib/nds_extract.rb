@@ -30,6 +30,7 @@ def list_of_directors(source)
   index = 0
   while index < source.count do
     list << "#{source[index][:name]}"
+    index += 1
   end
   
   return list
