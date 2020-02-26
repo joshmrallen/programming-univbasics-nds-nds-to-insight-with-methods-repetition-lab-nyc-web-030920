@@ -53,7 +53,7 @@ def total_gross(source)
   
   while index < list_of_directors.count do
     
-    grand_gross += fetch.source(list_of_directors[index])
+    grand_gross += source.fetch(list_of_directors[index])
     
   end
   
